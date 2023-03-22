@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "target": "ES2021",
+    "outDir": "dist",
+  },
+}

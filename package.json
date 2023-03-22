@@ -1,0 +1,32 @@
+{
+  "name": "pt-coordinape",
+  "version": "0.1.0",
+  "description": "A Coordinape utility bot for the PoolTogether Discord",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "tsc && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trmid/pt-coordinape.git"
+  },
+  "keywords": [
+    "Coordinape",
+    "Discord",
+    "Bot",
+    "PoolTogether",
+    "Utility",
+    "Contributions"
+  ],
+  "author": "Trevor Richard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trmid/pt-coordinape/issues"
+  },
+  "homepage": "https://github.com/trmid/pt-coordinape#readme",
+  "dependencies": {
+    "discord.js": "^14.8.0"
+  }
+}
