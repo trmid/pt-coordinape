@@ -8,5 +8,6 @@
     "lib": ["ESNext"],
     "target": "ES2021",
     "outDir": "dist",
+    "importHelpers": true,
   },
 }
