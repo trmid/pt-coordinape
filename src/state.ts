@@ -4,6 +4,7 @@ const stateFileName = "state.json";
 
 interface State {
   lastId: number
+  lastAlertedEpochNumber?: number
 }
 
 export const getState = async () => {

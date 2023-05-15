@@ -9,6 +9,7 @@ const expected = {
   BOT_INVITE_LINK: v => v,
   CHANNEL_ID: v => v,
   GUILD_ID: v => v,
+  UPDATES_ROLE_ID: v => v,
 } satisfies Record<string, (v: string) => string | number | boolean>
 
 export namespace Config {
